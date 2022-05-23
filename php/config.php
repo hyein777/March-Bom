@@ -1,6 +1,6 @@
 <?php
-	$db_con = mysqli_connect("localhost", "zktyvod", "dnlzlfk98!!1");
-	$db_select = mysqli_select_db($db_con,"zktyvod");
+	$db_con = mysqli_connect("localhost", "아이디", "비밀번호");
+	$db_select = mysqli_select_db($db_con,"아이디");
 	mysqli_query($db_con,"set names utf8");
 
 	function db_close()
